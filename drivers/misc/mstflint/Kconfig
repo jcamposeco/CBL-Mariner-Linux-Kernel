@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: GPL-2.0-only
+config MSTFLINT
+	tristate "Driver for mstflint secure boot"
+	help
+	  This driver enables mstflint to work under secure boot enabled systems.
+
+	  To compile this driver as a module, choose M here. The module
+	  will be called mstflint.
